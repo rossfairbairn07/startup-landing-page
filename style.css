@@ -1,0 +1,139 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  color:#1B034F;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+  border-radius: 6px;
+}
+
+header.startup {
+  background-position: center;
+  color: #fff;
+  background: linear-gradient(-45deg, #C1B3DC, #7052AE, #1B034F, #140630);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  height: 100%;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+header.startup h1,h3 { 
+  margin-bottom: 30px; 
+}
+
+header.startup h1, {
+  font-size: 4rem; 
+}
+
+
+section{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
+footer{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
+
+.btn {
+  margin-top: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #6666ff;
+  border-color: #ccccff; }
+
+.btn-primary:hover {
+  background-color: #4d4dff;
+  border-color: #ccccff;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+/*css for down arrow in button */
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}/*end of css for down arrow in button */
+
+/*css for content headers */
+.cHead{
+  padding-bottom: 0.2em;
+  border-bottom: solid;
+  border-width:1px;
+}
+.cHead-right{
+text-align: right;
+}
+/*end of css for content headers */
+
+a {
+  color:#1B034F;
+}
+
+a:hover{
+  color:#1B034F;
+  text-decoration: none;
+  background-color: #E3E4E7;
+}
